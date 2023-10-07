@@ -1,5 +1,5 @@
-# technic more mashines
-> Technic More Mashines Mod for Minetest
+# technic more machines
+> Technic More Machines Mod for Minetest
 
 This is an addon for Technic Mod
 
