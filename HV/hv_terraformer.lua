@@ -12,7 +12,7 @@ minetest.register_node("technic_more_machines:hv_terraformer1", {
 		"technic_more_machines_hv_furnace_side.png^technic_more_machines_snow.png",
 	},
     is_ground_content = false,
-	groups = {cracky=2, technic_machine = 1, technic_hv = 1},
+	groups = {cracky=2, technic_machine = 1, technic_hv = 1, not_in_creative_inventory = 1}, --delete not_in_creative_inventory = 1
 	paramtype = "light",
 	paramtype2 = "facedir",
 	connect_sides = {"top", "bottom", "left", "right", "back"},
