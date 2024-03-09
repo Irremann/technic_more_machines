@@ -137,4 +137,4 @@ technic.register_alloy_recipe({input = {'technic:sulfur_dust', 'technic:copper_d
 
 technic.register_alloy_recipe({input = {'technic:chromium_dust', 'technic_more_machines:oxygen'}, output = 'dye:dark_green 3', time = 3})
 
-technic.register_alloy_recipe({input = {'group:sand', 'technic:copper_dust'}, output = 'dye:blue 3', time = 3})
+technic.register_alloy_recipe({input = {'default:sand', 'technic:copper_dust'}, output = 'dye:blue 3', time = 3})
