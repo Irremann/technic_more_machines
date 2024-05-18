@@ -120,6 +120,7 @@ minetest.register_craftitem("technic_more_machines:iron_oxide", {
 })
 
 technic.register_alloy_recipe({input = {'technic:wrought_iron_dust', 'technic_more_machines:oxygen'}, output = 'technic_more_machines:iron_oxide', time = 3})
+
 minetest.register_craft({
 	output = "dye:orange 3",
 	recipe = {{'technic_more_machines:iron_oxide', 'default:clay_lump'}}
@@ -138,3 +139,14 @@ technic.register_alloy_recipe({input = {'technic:sulfur_dust', 'technic:copper_d
 technic.register_alloy_recipe({input = {'technic:chromium_dust', 'technic_more_machines:oxygen'}, output = 'dye:dark_green 3', time = 3})
 
 technic.register_alloy_recipe({input = {'default:sand', 'technic:copper_dust'}, output = 'dye:blue 3', time = 3})
+
+technic.register_alloy_recipe({input = {'default:sand', 'dye:orange'}, output = 'default:desert_sandstone', time = 3})
+technic.register_alloy_recipe({input = {'default:silver_sand', 'dye:orange'}, output = 'default:desert_sandstone', time = 3})
+
+technic.register_alloy_recipe({input = {'default:sand', 'dye:white'}, output = 'default:silver_sandstone', time = 3})
+technic.register_alloy_recipe({input = {'default:desert_sand', 'dye:white'}, output = 'default:silver_sandstone', time = 3})
+
+technic.register_alloy_recipe({input = {'default:desert_sand', 'dye:yellow'}, output = 'default:sandstone', time = 3})
+technic.register_alloy_recipe({input = {'default:silver_sand', 'dye:yellow'}, output = 'default:sandstone', time = 3})
+
+technic.register_alloy_recipe({input = {'default:cobble', 'dye:red'}, output = 'default:desert_stone', time = 3})
